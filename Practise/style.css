@@ -1,0 +1,40 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    background-color: #CDF0EA;
+    height: 55px;
+}
+.logo{
+    color: black;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo h3{
+    margin-top: 15px;
+}
+.main-container h2{
+    padding: 40px;
+ display: flex;
+ justify-content: center;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.1);
+    transition: 0.3s;
+   width: 20%;
+   
+  }
+  .card-container{
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  img{
+    height: 100px;
+    width: 100px;
+  }
+  
